@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp"/>
+            <solid android:color="#FF8C00"/> <!-- Orange glow when pressed -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp"/>
+            <gradient
+                android:angle="270"
+                android:startColor="#0F3460"
+                android:endColor="#16213E"
+                android:type="linear"/>
+            <stroke android:width="2dp" android:color="#FF8C00"/> <!-- Orange outline -->
+        </shape>
+    </item>
+</selector>
